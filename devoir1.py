@@ -1,6 +1,7 @@
-l8 = list(range(30000,100000))
-print(l8)
+#coding: utf8
 
-l9 = list(range(00000,18000))
-print(l9)
+annee = [format(annee) for annee in range(30000, 100000)]
 
+anne = ["{:05d}".format(anne) for anne in range(0, 18000)]
+
+print(annee, anne)
